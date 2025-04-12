@@ -111,6 +111,12 @@
       "minimumSalary": 150000,
       "maximumSalary": 200000,
       "id": 9
+    },
+    {
+      "title": "Automation Engineer",
+      "minimumSalary": 90000,
+      "maximumSalary": 120000,
+      "id": 10
     }
   ],
   "metadata": {
