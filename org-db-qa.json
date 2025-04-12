@@ -1,0 +1,119 @@
+{
+  "employees": [
+    {
+      "name": "Noah",
+      "departmentId": 2,
+      "roleId": 4,
+      "id": 1
+    },
+    {
+      "name": "Anastasia",
+      "departmentId": 2,
+      "roleId": 1,
+      "managerId": 1,
+      "id": 2
+    },
+    {
+      "name": "Priya",
+      "departmentId": 1,
+      "roleId": 9,
+      "id": 3
+    },
+    {
+      "name": "Leila",
+      "departmentId": 1,
+      "roleId": 6,
+      "managerId": 3,
+      "id": 4
+    },
+    {
+      "name": "Jonas",
+      "departmentId": 3,
+      "roleId": 8,
+      "id": 5
+    },
+    {
+      "name": "Elijah",
+      "departmentId": 4,
+      "roleId": 7,
+      "id": 6
+    }
+  ],
+  "departments": [
+    {
+      "name": "Human Resources",
+      "id": 1
+    },
+    {
+      "name": "Engineering",
+      "id": 2
+    },
+    {
+      "name": "Legal",
+      "id": 3
+    },
+    {
+      "name": "Accounting",
+      "id": 4
+    }
+  ],
+  "roles": [
+    {
+      "title": "Jr. Software Engineer",
+      "minimumSalary": 60000,
+      "maximumSalary": 95000,
+      "id": 1
+    },
+    {
+      "title": "Software Engineer",
+      "minimumSalary": 90000,
+      "maximumSalary": 115000,
+      "id": 2
+    },
+    {
+      "title": "Sr. Software Engineer",
+      "minimumSalary": 110000,
+      "maximumSalary": 140000,
+      "id": 3
+    },
+    {
+      "title": "Engineering Manager",
+      "minimumSalary": 135000,
+      "maximumSalary": 185000,
+      "id": 4
+    },
+    {
+      "title": "Talent Management",
+      "minimumSalary": 55000,
+      "maximumSalary": 95000,
+      "id": 5
+    },
+    {
+      "title": "Benefits Specialist",
+      "minimumSalary": 50000,
+      "maximumSalary": 75000,
+      "id": 6
+    },
+    {
+      "title": "Accounts Payable",
+      "minimumSalary": 45000,
+      "maximumSalary": 65000,
+      "id": 7
+    },
+    {
+      "title": "Associate Counsel",
+      "minimumSalary": 130000,
+      "maximumSalary": 180000,
+      "id": 8
+    },
+    {
+      "title": "HR Manager",
+      "minimumSalary": 150000,
+      "maximumSalary": 200000,
+      "id": 9
+    }
+  ],
+  "metadata": {
+    "version": "qa"
+  }
+}

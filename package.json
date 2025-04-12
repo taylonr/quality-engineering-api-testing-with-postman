@@ -1,0 +1,20 @@
+{
+  "name": "api-testing-spike",
+  "version": "1.0.0",
+  "description": "Code used for the Pluralsight course Quality Engineering: API Testing with Postman",
+  "main": "index.js",
+  "scripts": {
+    "start:qa": "node --watch index.js env:qa",
+    "start:dev": "node --watch index.js env:dev"
+  },
+  "author": "Nate Taylor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taylonr/quality-engineering-api-testing-with-postman.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "json-server": "^0.17.4"
+  }
+}
