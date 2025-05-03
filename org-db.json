@@ -37,6 +37,13 @@
       "departmentId": 4,
       "roleId": 7,
       "id": 6
+    },
+    {
+      "name": "TestEmployee",
+      "departmentId": 2,
+      "roleId": 1,
+      "managerId": 1,
+      "id": 7
     }
   ],
   "departments": [

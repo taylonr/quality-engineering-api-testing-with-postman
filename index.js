@@ -49,6 +49,11 @@ app.post("/employees", (req, res, next) => {
   }
 
   const { name, departmentId, roleId, managerId } = req.body;
+
+  if (!name) {
+    return res.status(400).json({ error: "Name is required" });
+  }
+
   req.body = { name, departmentId, roleId, managerId };
 
   next();
